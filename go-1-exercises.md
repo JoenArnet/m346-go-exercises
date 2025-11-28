@@ -18,7 +18,7 @@ Falls du die Aufgabe nicht lösen kannst, notierst du dir die Umrechnungen auf e
 
 `go-1-ex-3/main.go`: Das Programm würfelt eine zufällige Zahl (zwischen 1 und 6) und zeigt diese an. Weiter zeigt das Programm an, wann die Zahl gewürfelt worden ist. Anstelle von `fmt.Println` verwendest du die Funktion `fmt.Fprintln` um die beiden Informationen auszugeben.
 
-Als erstes Argument musst du hierzu `os.Stdout` oder `os.Stderr` verwenden.  Für welche Art der Information (erwürfelte Augen oder Zeitpunkt des Würfelns) ist welche Ausgabe (`os.Stdout`/`os.Stderr`) besser geeignet?
+Als erstes Argument musst du hierzu `os.Stdout` oder `os.Stderr` verwenden. Für welche Art der Information (erwürfelte Augen oder Zeitpunkt des Würfelns) ist welche Ausgabe (`os.Stdout`/`os.Stderr`) besser geeignet?
 
 Rufe anschliessend das Programm so auf, dass die Augenzahl in die Datei `eyes.txt` geschrieben wird, und der Zeitpunkt in die Datei `dice.log`. Ergänze den Kommentar unten am Programm um diesen Aufruf entsprechend zu dokumentieren.
 
